@@ -14,6 +14,8 @@
 		DA0A190E19F2AFF3001D4FF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0A190D19F2AFF3001D4FF9 /* Images.xcassets */; };
 		DA0A191119F2AFF3001D4FF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA0A190F19F2AFF3001D4FF9 /* LaunchScreen.xib */; };
 		DA0A191D19F2AFF3001D4FF9 /* WorksongsProtoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0A191C19F2AFF3001D4FF9 /* WorksongsProtoTests.swift */; };
+		DA0A192719F2B457001D4FF9 /* GestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0A192619F2B457001D4FF9 /* GestureHandler.swift */; };
+		DA0A192919F2BD16001D4FF9 /* join.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA0A192819F2BD15001D4FF9 /* join.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		DA0A191619F2AFF3001D4FF9 /* WorksongsProtoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorksongsProtoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0A191B19F2AFF3001D4FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA0A191C19F2AFF3001D4FF9 /* WorksongsProtoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorksongsProtoTests.swift; sourceTree = "<group>"; };
+		DA0A192619F2B457001D4FF9 /* GestureHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureHandler.swift; sourceTree = "<group>"; };
+		DA0A192819F2BD15001D4FF9 /* join.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = join.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +83,10 @@
 		DA0A190019F2AFF3001D4FF9 /* WorksongsProto */ = {
 			isa = PBXGroup;
 			children = (
+				DA0A192A19F2BD21001D4FF9 /* Audio */,
 				DA0A190319F2AFF3001D4FF9 /* AppDelegate.swift */,
 				DA0A190819F2AFF3001D4FF9 /* ViewController.swift */,
+				DA0A192619F2B457001D4FF9 /* GestureHandler.swift */,
 				DA0A190A19F2AFF3001D4FF9 /* Main.storyboard */,
 				DA0A190D19F2AFF3001D4FF9 /* Images.xcassets */,
 				DA0A190F19F2AFF3001D4FF9 /* LaunchScreen.xib */,
@@ -113,6 +119,14 @@
 				DA0A191B19F2AFF3001D4FF9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA0A192A19F2BD21001D4FF9 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				DA0A192819F2BD15001D4FF9 /* join.mp3 */,
+			);
+			name = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +212,7 @@
 				DA0A190C19F2AFF3001D4FF9 /* Main.storyboard in Resources */,
 				DA0A191119F2AFF3001D4FF9 /* LaunchScreen.xib in Resources */,
 				DA0A190E19F2AFF3001D4FF9 /* Images.xcassets in Resources */,
+				DA0A192919F2BD16001D4FF9 /* join.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA0A192719F2B457001D4FF9 /* GestureHandler.swift in Sources */,
 				DA0A190919F2AFF3001D4FF9 /* ViewController.swift in Sources */,
 				DA0A190719F2AFF3001D4FF9 /* WorksongsProto.xcdatamodeld in Sources */,
 				DA0A190419F2AFF3001D4FF9 /* AppDelegate.swift in Sources */,
